@@ -10,4 +10,9 @@
 
 @implementation SampleStaticLibrary
 
+- (void)test
+{
+
+}
+
 @end
