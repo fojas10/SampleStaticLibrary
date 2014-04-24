@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SampleStaticLibrary"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "wala lang"
   s.description  = <<-DESC
                    A longer description of SampleStaticLibrary in Markdown format.
