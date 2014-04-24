@@ -10,4 +10,9 @@
 
 @implementation SampleLibrary2
 
+- (BOOL)returnOhYeah
+{
+    return YES;
+}
+
 @end

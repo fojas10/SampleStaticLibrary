@@ -10,4 +10,6 @@
 
 @interface SampleLibrary2 : NSObject
 
+- (BOOL)returnOhYeah;
+
 @end
