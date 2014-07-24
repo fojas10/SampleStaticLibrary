@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author       = { "fojas10" => "edgar.fojas@gmail.com" }
   s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/fojas10/SampleStaticLibrary.git", :tag => "0.0.4" }
-  s.source_files  = "SampleStaticLibrary/SDK/SampleStaticLibrary/*.h"
+  s.source_files  = "SampleStaticLibrary/SDK/SampleStaticLibrary/**/*.h"
   s.preserve_paths = "SampleStaticLibrary/SDK/SampleStaticLibrary/*.a"
   s.requires_arc = true
 

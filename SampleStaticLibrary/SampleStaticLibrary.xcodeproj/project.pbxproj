@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C96EC2C21981080300084776 /* Header2.m in Sources */ = {isa = PBXBuildFile; fileRef = C96EC2C11981080300084776 /* Header2.m */; };
+		C96EC2C51981082900084776 /* Header3.m in Sources */ = {isa = PBXBuildFile; fileRef = C96EC2C41981082900084776 /* Header3.m */; };
 		C98E85C21906340600A145A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98E85C11906340600A145A0 /* Foundation.framework */; };
 		C98E85C71906340600A145A0 /* SampleStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C98E85C61906340600A145A0 /* SampleStaticLibrary.h */; };
 		C98E85C91906340600A145A0 /* SampleStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C98E85C81906340600A145A0 /* SampleStaticLibrary.m */; };
@@ -42,6 +44,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C96EC2C01981080300084776 /* Header2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header2.h; sourceTree = "<group>"; };
+		C96EC2C11981080300084776 /* Header2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header2.m; sourceTree = "<group>"; };
+		C96EC2C31981082900084776 /* Header3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header3.h; path = SubHeaders/Header3.h; sourceTree = "<group>"; };
+		C96EC2C41981082900084776 /* Header3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Header3.m; path = SubHeaders/Header3.m; sourceTree = "<group>"; };
 		C98E85BE1906340600A145A0 /* libSampleStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSampleStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98E85C11906340600A145A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C98E85C51906340600A145A0 /* SampleStaticLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleStaticLibrary-Prefix.pch"; sourceTree = "<group>"; };
@@ -112,6 +118,10 @@
 			children = (
 				C98E85C61906340600A145A0 /* SampleStaticLibrary.h */,
 				C98E85C81906340600A145A0 /* SampleStaticLibrary.m */,
+				C96EC2C31981082900084776 /* Header3.h */,
+				C96EC2C41981082900084776 /* Header3.m */,
+				C96EC2C01981080300084776 /* Header2.h */,
+				C96EC2C11981080300084776 /* Header2.m */,
 				C98E85C41906340600A145A0 /* Supporting Files */,
 			);
 			path = SampleStaticLibrary;
@@ -224,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96EC2C51981082900084776 /* Header3.m in Sources */,
 				C98E85C91906340600A145A0 /* SampleStaticLibrary.m in Sources */,
+				C96EC2C21981080300084776 /* Header2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				C98E85E31906340600A145A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C98E85E41906340600A145A0 /* Build configuration list for PBXNativeTarget "SampleStaticLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				C98E85E61906340600A145A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
